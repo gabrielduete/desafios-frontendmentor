@@ -4,8 +4,8 @@
 
 | Nome |  Status  | Minha Solução |
 | ------------------- | ------------------- | ------------------- | 
-|  [order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)  |  100%  | https://gabrielduete.github.io/desafios-frontendmentor/newbie/order%20summary%20component%20main/index.html |
-|  [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) |  0%  | --- |
+|  [order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)  |  100%  | https://desafios-frontendmentor-l94zp3hg2-gabrielduete.vercel.app/newbie/order%20summary%20component%20main/index.html |
+|  [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) |  100%  | https://desafios-frontendmentor-l94zp3hg2-gabrielduete.vercel.app/newbie/stats%20preview%20card%20component%20main/index.html |
 |  [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2)  |  0%  | ---  |
 | [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) |  0%  | --- |
 |  [FAQ accordion card](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) |  0%  | --- |
