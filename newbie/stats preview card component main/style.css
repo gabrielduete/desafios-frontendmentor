@@ -1,0 +1,26 @@
+:root{
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-desaturated-blue: hsl(244, 38%, 16%);
+    --soft: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --slightly-transparent: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent: hsla(0, 0%, 100%, 0.6);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
