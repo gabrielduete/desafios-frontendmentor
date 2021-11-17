@@ -4,7 +4,7 @@
 
 | Nome |  Status  |  Link  | Minha Solução |
 | ------------------- | ------------------- | ------------------- | ------------------- |
-|  order summary component  |  100%  |  https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj  | https://gabrielduete.github.io/desafios-frontendmentor/newbie/order%20summary%20component%20main/index.html |
+|  order summary component[https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62]  |  100%  |  https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj  | https://gabrielduete.github.io/desafios-frontendmentor/newbie/order%20summary%20component%20main/index.html |
 |  Stats preview card component  |  0%  |  https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62  |
 |  3-column preview card component  |  0%  |  https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-  |
 | Profile card component  |  0%  |  https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ |
