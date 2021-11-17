@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
 :root{
     --very-dark-blue: hsl(233, 47%, 7%);
     --dark-desaturated-blue: hsl(244, 38%, 16%);
     --soft: hsl(277, 64%, 61%);
     --white: hsl(0, 0%, 100%);
-    --slightly-transparent: hsla(0, 0%, 100%, 0.75);
-    --slightly-transparent: hsla(0, 0%, 100%, 0.6);
+    --slightly-transparent-stats: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-p: hsla(0, 0%, 100%, 0.6);
+    --font-second: 'Lexend Deca', sans-serif;
+    --font-primary: 'Inter', sans-serif;
 }
 
 *{
@@ -15,12 +20,280 @@
 
 body{
     font-size: 15px;
+    background-color: var(--very-dark-blue);
 }
 
 .attribution{
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    color: white;
 }
+
 .attribution a{ 
     color: hsl(228, 45%, 44%); 
 }
+
+.container-bg{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--very-dark-blue);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    background-color: var(--dark-desaturated-blue);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.divEsquerda{
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: var(--font-primary);
+}
+
+.divEsquerda p{
+    font-family: var(--font-second);
+    color: var(--slightly-transparent-p);
+    line-height: 1.5;
+}
+
+.divEsquerda .text{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divEsquerda .text h1{
+    font-size: 2em;
+}
+
+.divEsquerda .text span{
+    color: var(--soft);
+}
+
+.divDireita{
+    background-color: var(--soft);
+    border-radius: 0px 10px 10px 0;
+    position: relative;
+}
+
+.divDireita img{
+    border-radius: 0px 10px 10px 0;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.img-mobile{
+    display: none;
+}
+
+.img-desktop{
+    display: block;
+}
+
+.fundoRosa{
+    position: absolute;
+    background-color: var(--soft);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 30%;
+    border-radius: 0px 10px 10px 0;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infos p{
+    text-transform: uppercase;
+    font-size: 0.80em;
+}
+
+.infos .stat{
+    color: var(--white);
+    font-size: 1.5em;
+}
+
+@media (min-width: 260px) and (max-width:750px){
+    .container{
+        flex-direction: column-reverse;
+        margin: 50px;
+    }
+
+    .container-bg{
+        height: 100%;
+    }
+
+    .divEsquerda .text{
+        height: 230px;
+        margin-bottom: 10%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .img-desktop{
+        display: none;
+    }
+
+    .divDireita{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .divDireita .img-mobile{
+        width: 100%;
+        display: block;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .fundoRosa{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .infos{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 215px;
+    }
+}
+
+
+@media(min-width: 751px) and (max-width: 1000px){
+    .container{
+        flex-direction: column-reverse;
+        margin: 50px;
+        width: 50%;
+    }
+
+    .container-bg{
+        height: 100%;
+    }
+
+    .divEsquerda .text{
+        height: 165px;
+        margin-bottom: 10%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .img-desktop{
+        display: none;
+    }
+
+    .divDireita{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .divDireita .img-mobile{
+        width: 100%;
+        display: block;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .fundoRosa{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .infos{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 215px;
+    }
+}
+
+@media(min-width: 1001px) and (max-width: 1220px){
+    .container{
+        flex-direction: column-reverse;
+        margin: 50px;
+        width: 40%;
+    }
+
+    .container-bg{
+        height: 100%;
+    }
+
+    .divEsquerda .text{
+        height: 165px;
+        margin-bottom: 10%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .img-desktop{
+        display: none;
+    }
+
+    .divDireita{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .divDireita .img-mobile{
+        width: 100%;
+        display: block;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .fundoRosa{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .infos{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 215px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container{
+        justify-content: space-between;
+    }
+    .img-desktop{
+        width: 100%;
+    }
+}
+
+/* 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠛⠉⠱⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠺⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⣴⠆⢰⢄⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠁⢡⠲⢺⠀⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡤⢼⣴⠾⣆⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⢤⢧⣄⣀⣀⣩⠝⠁⠀⠀⠀⠀-------- Esse Gabriel inventa cada código...⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⡠⢻⢸⣾⢱⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⡠⢄⠀⢀⡔⠁⢠⠓⢶⠋⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⣔⡯⣭⣒⡷⠋⠀⣴⣢⢀⡞⢣⡀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  
+⠀⠋⠑⢲⠯⡵⣚⡏⠉⢫⣀⠀⢣⢾⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⡸⠀⢠⠛⠧⣤⡼⣮⣭⣽⢳⣶⣵⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⢠⢶⣁⣠⠃⠀⢠⠫⠖⠉⠉⣫⠺⠧⠑⠒⠦⢭⣙⣒⡦⡤⣀⣀⠀⠀⠀⠀⠀⠀ 
+⠀⠈⡆⠉⠨⡟⡆⠈⠉⠉⠉⣉⣵⣿⣿⣿⣿⠟⠛⠉⢹⡻⠃⠃⡟⣿⣶⣄⡀⠀⠀ 
+⠀⠀⠙⠶⠶⠛⣥⣾⣿⣿⣿⣿⣿⡿⣛⡉⠀⠞⠛⠉⠉⠀⣀⣫⣴⣿⣿⣿⣿⣦⡀ 
+⠀⠀⠀⠀⠀⠀⠈⠉⢿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣾⠛⢻⣿⣿⣿⣿⣿⣿⣿⠿⠿⠃ 
+ */
