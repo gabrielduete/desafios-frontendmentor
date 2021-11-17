@@ -208,7 +208,7 @@ p{
     }
 }
 
-@media (min-width: 540px) and (max-height: 820px) { 
+@media (width: 540px) and (max-height: 820px) { 
     .container{
         width: 50%;
         height: 540px;
