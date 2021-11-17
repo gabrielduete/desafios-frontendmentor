@@ -1,6 +1,6 @@
 # Desafios resolvidos por mim do Frontend mentor
 
-## Newbie
+## Newbie (Todos os FREE)
 
 | Nome |  Status  | Minha Solução |
 | ------------------- | ------------------- | ------------------- | 
