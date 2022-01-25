@@ -33,7 +33,7 @@ section {
 section div {
   width: 220px;
   height: 410px;
-  color: white;
+  color: rgba(255, 255, 255, 0.938);
   display: flex;
   flex-direction: column;
   padding: 45px 40px;
