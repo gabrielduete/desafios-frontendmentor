@@ -1,4 +1,4 @@
-# [PT-BR] Desafios resolvidos por mim do Frontend mentor <br> [EN] Challenges solved by me from Frontend mentor
+# [PT-BR] Desafios resolvidos por mim do Frontend mentor <br><br> [EN] Challenges solved by me from Frontend mentor
 
 ## Newbie (Todos os FREE)
 
